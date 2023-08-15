@@ -1,0 +1,153 @@
+:root{
+    --mainColor:#F8F8F8;
+    --secondaryColor:#F4F4F4;
+    --borderColor:#D9D9D9;
+    --mainText: #414040;
+    --secondaryText:#5E5F63;
+    --lightBlue: #4774B8;
+    --darkBlue: #4774B8;
+    --themeDotBorder:#23292e;
+    --previewBg: rgb(251, 249, 243, 0.6);
+    --previewShadow: #f0ead6;
+}
+
+@font-face{
+    font-family: SF-Compact;
+    src: 
+        url("fonts/SF Compact/SF-Compact.ttf")
+        ;
+}
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Black.otf");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Heavy.otf");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Bold.otf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Semibold.otf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Medium.otf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+        font-family: SF-Compact-Rounded;
+        src: url("fonts/SF Compact/SF-Compact-Rounded-Light.otf");
+        font-style: normal;
+        font-weight: 300;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Thin.otf");
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Ultralight.otf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+.main-container{
+    width: 1150px;
+}
+.intro-wrapper{
+    padding:0;
+}
+
+.left-column{
+    padding: 0; 
+    margin: 0;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.right-column{
+    padding: 0; 
+    margin: 0;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+.right-column img{
+    padding: 0;
+    margin:0;
+    width: 515px;
+    margin: 0 auto;
+
+}
+.left-column h1{
+    float: left;
+
+    padding: 0;
+    margin-left: 70px;
+    color: #414040;
+    text-align: center;
+    font-family: Russo One;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+p{
+    padding:0;
+    margin: 0;
+}
+.left-column p{  
+    padding: 0;
+    margin:0 auto;
+    padding-right: 0px;
+    padding-top: 12px;
+    font-family: SF-Compact-Rounded, sanserif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 16px */
+    width: 375px;
+
+
+    flex-direction: column;
+    justify-content: left;
+    flex-shrink: 0;
+
+}
+
+.task-bar{
+    margin-top: 67.5px;
+}
