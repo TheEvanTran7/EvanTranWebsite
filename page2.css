@@ -80,9 +80,6 @@
     font-weight: 100;
 }
 
-.main-container{
-    width: 1150px;
-}
 .intro-wrapper{
     padding:0;
 }
@@ -90,64 +87,80 @@
 .left-column{
     padding: 0; 
     margin: 0;
-    margin-bottom: 60px;
-    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .right-column{
     padding: 0; 
     margin: 0;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin-right: 70px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .right-column img{
     padding: 0;
-    margin:0;
-    width: 515px;
-    margin: 0 auto;
-
+    width: 95%;
+    display: flex;
+    margin: auto;
+    margin-right: 70px;
 }
 .left-column h1{
     float: left;
 
     padding: 0;
-    margin-left: 70px;
+    
     color: #414040;
-    text-align: center;
+    text-align: left;
     font-family: Russo One;
-    font-size: 50px;
+    font-size: 2.05vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    margin-left: 50px;
 }
 
 
 p{
     padding:0;
     margin: 0;
+
 }
 .left-column p{  
     padding: 0;
-    margin:0 auto;
     padding-right: 0px;
     padding-top: 12px;
     font-family: SF-Compact-Rounded, sanserif;
-    font-size: 16px;
+    font-size: .775vw;
     font-style: normal;
     font-weight: 300;
     line-height: 100%; /* 16px */
-    width: 375px;
+    width: 70%;
 
 
     flex-direction: column;
     justify-content: left;
     flex-shrink: 0;
-
+    margin: auto;
+    margin-left: 50px;
 }
 
 .task-bar{
-    margin-top: 67.5px;
+    margin-top: 1.5%;
+    width: 45%;
+}
+.header-logo{
+    margin: auto;
+    width: 90%;
+}
+.nav-bar{
+    width: 65%;
+    margin: auto;
+}
+
+
+.about-mine-line{
+    width: 80%;
+    margin-left: 42.5px;
+    padding: 0;
 }
