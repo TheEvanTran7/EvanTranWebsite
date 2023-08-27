@@ -80,94 +80,61 @@
     font-style: normal;
     font-weight: 100;
 }
-.main-continaer{
-    margin: 0;
-    display:flex;
-}
-.intro-wrapper{
-    padding:0;
+
+.main-container{
+
 }
 
+.left-right-content{
+    padding: 25px;
+    justify-content: center;
+    gap:125px;
+}
 .left-column{
-    float: left;
-    padding: 0; 
-    margin: 0;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    width: 45%;
+    display: block;
+    justify-content: center;
+    margin-left: 25px;
 }
 
 .right-column{
-    float: right;
-    padding: 0; 
-    margin: 0;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    width: 50%;
+    display: block;
 }
-
 .right-column img{
+    position: relative;
     padding: 0;
-    width: 60vh;
+    margin: 0;
+    width: 50vh;
     display: flex;
-    margin: auto;
-    margin-right: 70px;
 }
 .left-column h1{
-    float: left;
-
+    margin:auto;
     padding: 0;
-    
     color: #414040;
     text-align: left;
     font-family: Russo One;
-    font-size: 2.05vw;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 50px;
 }
 
 
-p{
-    padding:0;
-    margin: 0;
-
-}
 .left-column p{  
     margin:0;
-    margin-left: 50px;
     padding: 0;
-    padding-right: 0px;
-    padding-top: 12px;
     font-family: SF-Compact-Rounded, sanserif;
-    font-size: .95vw;
+    font-size: 14.5px;
     font-style: normal;
     font-weight: 300;
-    line-height: 100%; /* 16px */
-    width: 50%;
+    line-height: 95%; /* 16px */
 
-
-    flex-direction: column;
-    justify-content: left;
-    flex-shrink: 0;
-
-}
-
-.task-bar{
-    margin-top: 1.5%;
-    width: 45%;
-}
-.header-logo{
-    margin: auto;
-    width: 90%;
-}
-.nav-bar{
-    width: 65%;
-    margin: auto;
 }
 
 
 .about-mine-line{
-    width: 80%;
-    margin-left: 42.5px;
+    width: 100%;
+    margin-left: -12.5px;
     padding: 0;
 }
