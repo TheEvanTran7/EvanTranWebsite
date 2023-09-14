@@ -156,6 +156,7 @@ p{
 .nav-bar{
     width: 65%;
     margin: auto;
+    padding: 25px;
 }
 
 
@@ -163,4 +164,45 @@ p{
     width: 80%;
     margin-left: 42.5px;
     padding: 0;
+}
+
+
+
+ @media (max-width: 1600px) and (min-width = 1441px) {
+
+
+    .nav-bar{
+        padding: 20px;
+    }
+  }
+
+  @media (max-width: 1440px) and (min-width = 1350px) {
+
+    .nav-bar{
+        padding: 25px;
+    }
+
+    
+  }
+
+  @media (max-width: 1370px) and (min-width = 1281px) {
+
+    .nav-bar{
+        padding: 10px;
+    }
+
+    .nav-bar h6{
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .nav-bar{
+        padding: 12.5px;
+    }
+
+    .nav-bar h6{
+        font-size: 1rem;
+    }
 }
