@@ -178,8 +178,8 @@ p{
 .view-proj-btn{
     display: flex;
     justify-content: center;
-    padding: 15px;
-    border-radius: 5px;
+    padding: 17.5px;
+    border-radius: 6px;
     background: #FDC062;
     border-style: none;
 
@@ -191,7 +191,13 @@ p{
     font-weight: 700;
     line-height: 100%; /* 20px */
     letter-spacing: 0.5px;
+
+    gap: 7.5px;
 }
 .proj-block{
     margin: 25px 0px;
+}
+
+img{
+    margin: auto;
 }
