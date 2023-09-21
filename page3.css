@@ -79,24 +79,24 @@
     font-style: normal;
     font-weight: 100;
 }
-
-.project-wrapper{
-    display: inline-block;
+.intro-wrapper{
+    display: block;
+}
+.proj-wrapper{
+    display: block;
     height: 93.5%;
     justify-content: center;
     width: 100%;
 }
 .greeting-wrapper{
     display: block;
-    margin: 25px 50px;
-
+    height: auto;
+    margin: 0;
+    justify-content: center;
+    padding: 15px 40px;
 }
 
-.left-right-content{
-    position:relative;
-    height: 100%;
 
-}
 h1{
     display: flex;
     justify-content: center;
@@ -116,27 +116,29 @@ h1{
 }
 
 .b2t-btn{
+    border: 0;
     float:right;
     display: flex; 
     height: 50px;
-
+    padding: 0;
     background-color: transparent;
     border-color: transparent;
-    gap: 2.5px;
+    gap: 1px;
 }
 
 .b2t-btn h2{
     margin:auto;
     color: var(--mainText);
     font-family: SF-Compact;
-    font-size: 25px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 19.444px */
 }
 
 .b2t-btn img{
-    margin:auto;
+    padding-top:2px;
+    height: 25px;
 }
 
 .divider-img{
@@ -145,15 +147,7 @@ h1{
     width: 95%;
 }
 
-.left-column{
-    display: block;
-    width:45%;
-    padding: 0 50px;
-}
-.right-column{
-    display: block;
-    width:50%;
-}
+
 h5{
     color: var(--mainText);
     font-family: SF-Compact;
@@ -165,7 +159,7 @@ h5{
     letter-spacing: 2.5%;
 }
 p{
-    margin:10px 0;
+    margin-top: 7.5px;
     color: var(--header-color, #454545);
     font-family:"SF-Compact";
     font-size: 1.15rem;
@@ -175,29 +169,66 @@ p{
     letter-spacing: 125%;
 
 }
-.view-proj-btn{
-    display: flex;
+.view-proj-btn a{
+    display: block;
+    float: left;
     justify-content: center;
-    padding: 17.5px;
-    border-radius: 6px;
+    padding: 12.5px;
+    border-radius: 4px;
     background: #FDC062;
     border-style: none;
 
     color: #1E1E1E;
     text-align: center;
     font-family: "SF-Compact";
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 100%; /* 20px */
-    letter-spacing: 0.5px;
 
-    gap: 7.5px;
+    gap: 6.5px;
+}
+
+#view-proj-icon{
+    width:13.5px;
 }
 .proj-block{
-    margin: 25px 0px;
+    display: block;
+    height: 200px;
+    padding: auto;
 }
 
+.proj-btn{
+    height: auto;
+    display:block;
+    justify-content: center;
+}
 img{
     margin: auto;
+}
+
+.learn-more{
+    margin: 0 auto;
+    float:right;
+}
+
+.left-column{
+    padding-left: 50px;
+    display: block;
+    width:50%;
+    height: auto;
+    margin: auto;
+}
+.right-column{
+    display: block;
+    width:50%;
+    height: auto;
+}
+
+.left-right-content{
+
+    position:relative;
+    width: 100%;
+    height: 100%;
+
 }
