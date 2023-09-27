@@ -282,5 +282,6 @@ img{
 .project-pic{
     width: 440px;
     height: 250px;
-    margin: 0 auto;
+    margin: auto;
+    padding-right: 100px;
 }
