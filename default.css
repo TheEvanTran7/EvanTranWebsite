@@ -207,7 +207,7 @@ ul{
     text-align: center;
     margin: 0;
     color: var(--mainText);
-    font-family: SF-Compact;
+    font-family: 'SF-Compact';
     font-size: 1.333rem;
     font-style: normal;
     font-weight: 700;
@@ -244,7 +244,7 @@ ul{
     width: auto;
     display: flex;
     justify-content: center;
-    gap: 75px;
+    gap: 125px;
     width: 70%;
     
     margin: 0 auto;
@@ -252,20 +252,22 @@ ul{
 }
 
 .greeting-wrapper{
-    display: flex;
+    display: block;
+    height: fit-content;
     text-align: center;
     align-content: center;
-    margin-bottom: 25px;
+    padding-bottom: 75px;
+    gap: 25px;
 }
 
 .greeting-wrapper h1{
     color: var(--mainText);
     font-family: 'Russo One', sans-serif;
     font-weight: 500;
-    font-size: 2.75rem;
-    margin:0;
+    font-size: 3rem;
     text-align: center;
-    margin:auto;
+    margin: 0;
+
 
 }
 
@@ -273,7 +275,11 @@ ul{
     margin:auto;
     width: 66.666%;
     height: 100%;
-    background-color: var(--secondaryColor);
+/* From https://css.glass */
+    background: rgba(244, 244, 244, 0.45);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1.5px solid var(--borderColor);
     border-radius: 5px;
 
@@ -411,7 +417,7 @@ ul{
     font-family: 'SF-Compact-Rounded', sans-serif;
     font-size: 15px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -518,11 +524,16 @@ a{
     height:93.5%;
     display: flex;
 
+
+    
+
 }
 .inner-browser-content{
     display:block;
     margin:auto;
     padding-bottom: 50px;
+    
+
 }
 #corner-tl{
     top:-5px;

@@ -1,0 +1,178 @@
+:root{
+    --mainColor:#F8F8F8;
+    --secondaryColor:#F4F4F4;
+    --borderColor:#D9D9D9;
+    --mainText: #414040;
+    --secondaryText:#5E5F63;
+    --lightBlue: #4774B8;
+    --darkBlue: #4774B8;
+    --themeDotBorder:#23292e;
+    --previewBg: rgb(251, 249, 243, 0.6);
+    --previewShadow: #f0ead6;
+}
+
+
+@font-face{
+    font-family: SF-Compact;
+    src: 
+        url("fonts/SF Compact/SF-Compact.ttf")
+        ;
+}
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Black.otf");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Heavy.otf");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Bold.otf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Semibold.otf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Medium.otf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+        font-family: SF-Compact-Rounded;
+        src: url("fonts/SF Compact/SF-Compact-Rounded-Light.otf");
+        font-style: normal;
+        font-weight: 300;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Thin.otf");
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: SF-Compact-Rounded;
+    src: url("fonts/SF Compact/SF-Compact-Rounded-Ultralight.otf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+.inner-browser-content{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+form{
+    display: block;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.page-1{
+    display: flex;
+    height: 100%;
+}
+.page-content{
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 100px;
+
+}
+
+.page-1 label{ 
+    display: block;
+    padding: 7.5px 5px;
+    width: fit-content;
+    font-family: "SF-Compact", san-serif;
+    font-weight: 600;
+    color: var(--secondaryText);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    
+}
+.page-1 input{
+    display: block;
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+
+    font-family: "SF-Compact", san-serif;
+    font-weight: 400;
+    color: var(--secondaryText);
+
+    border: solid 1px #E9E9E9;
+    background-color: #fefefe;
+    
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.50);
+    overflow: hidden;
+    
+}
+
+.text-fields{
+    margin: auto;
+    width:  fit-content;
+
+}
+
+#name-field{
+    padding-bottom: 20px;
+}
+
+h1{ 
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+
+    font-family: "SF-Compact", san-serif;
+    font-weight: 900;
+    color: var(--mainText);
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+
+
+h2{ 
+    width: fit-content;
+    height: fit-content;
+
+    font-family: "SF-Compact", san-serif;
+    font-weight: 500;
+    color: var(--mainText);
+    font-size: 2.5rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
