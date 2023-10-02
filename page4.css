@@ -95,6 +95,18 @@ form{
     overflow: hidden;
 }
 .page-1{
+    display: none;
+    top: 0px;
+    height: 100%;
+}
+
+.page-2{
+    display: none;
+    top: 0px;
+    height: 100%;
+}
+
+.page-3{
     display: block;
     top: 0px;
     height: 100%;
@@ -104,7 +116,7 @@ form{
     width: fit-content;
     height: fit-content;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 125px;
     padding-bottom: 125px;
 
 }
@@ -118,6 +130,39 @@ form{
     color: var(--secondaryText);
     font-size: 1.5rem;
     text-transform: capitalize;
+    
+}
+
+
+.page-2 label{ 
+    display: block;
+    padding: 7.5px 5px;
+    width: fit-content;
+    font-family: "SF-Compact", san-serif;
+    font-weight: 600;
+    color: var(--secondaryText);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    
+}
+
+.page-2 input{
+    display: block;
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+
+    font-family: "SF-Compact", san-serif;
+    font-weight: 400;
+    color: var(--secondaryText);
+
+    border: solid 1px #E9E9E9;
+    background-color: #fefefe;
+    
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.50);
+    overflow: hidden;
     
 }
 .page-1 input{
@@ -143,11 +188,12 @@ form{
 .text-fields{
     margin: auto;
     width:  fit-content;
+    padding-top: 15px;
 
 }
 
 #name-field{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 h1{ 
@@ -158,7 +204,7 @@ h1{
     font-family: "SF-Compact", san-serif;
     font-weight: 900;
     color: var(--mainText);
-    font-size: 3rem;
+    font-size: 2.75rem;
     margin: auto;
     text-align: center;
     text-transform: capitalize;
@@ -174,10 +220,36 @@ h2{
     font-family: "SF-Compact", san-serif;
     font-weight: 500;
     color: var(--mainText);
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     margin: auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+
+}
+
+
+.page-2 h1{
+    font-size: 2.5rem;
+}
+
+.page-2 h2{
+    font-size: 2.125rem;
+}
+
+
+.page-3 h1{
+    display: block;
+    max-width: auto;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.page-3 h2{
+    display: inline-block;
+    max-width: auto;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    padding-bottom: 12.5px;
 
 }
 
@@ -209,4 +281,89 @@ h4{
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.25);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.50);
+}
+
+.cont-page-3{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    padding: 15px 20px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid none;
+    border-color: none;
+
+    border-radius: 4px;
+    gap: 15px;
+    background-color: #FDC872;
+
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.50);
+}
+
+.submit{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    border-style: none;
+    padding: 15px 20px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+
+
+    border-radius: 4px;
+    gap: 15px;
+    background-color: #FDC872;
+
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.25);
+ 
+ 
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.50);
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+textarea{
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 250px;
+    padding: 15px;
+    border-radius: 5px;
+
+    font-family: "SF-Compact", san-serif;
+    font-weight: 400;
+    color: var(--secondaryText);
+
+    border: solid 1px #E9E9E9;
+    background-color: #fefefe;
+    
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.50);
+    overflow: hidden;
+}
+
+h5{
+    width: fit-content;
+    height: fit-content;
+    font-family: "SF-Compact", san-serif;
+    font-weight: 700;
+    color: var(--mainText);
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 33px;
 }
