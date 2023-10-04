@@ -117,14 +117,16 @@
 }
 
 .greeting-wrapper{
-    width: 90%;
-    margin: auto;
-    padding: 0 50px;
+    width: 100%;
+    padding-bottom: 0;
     position: sticky;
     top:15px;
+    left: 0px;
   
     display: flex;
     height: 75px;
+
+
     margin-top: 10px;
     justify-content: space-between;
 }
@@ -161,7 +163,6 @@
     margin: auto 0;
     border: 0;
     float:right;
-    display: flex; 
     height: 50px;
     padding: 0;
     background-color: transparent;

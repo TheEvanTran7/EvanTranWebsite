@@ -153,3 +153,32 @@
     padding: 0;
 }
 
+.links{
+    display: flex;
+    gap: 30px;
+    justify-content: left;
+    padding-top: 45px;
+}
+
+.github{
+    display: flex;
+    gap: 8px;
+}
+
+.linkedin{
+    display: flex;
+    gap: 10px;
+}
+.links img{
+    gap: 10px;
+    width:20px;
+    height:20px;
+}
+
+.links h4{
+    font-family: "SF-Compact", sans-serif;
+    color: var(--mainText);
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.125rem;
+}
