@@ -17,7 +17,6 @@
 
     <link id="theme-style" rel="stylesheet" type="text/css" href="default.css">
     <link id="theme-style" rel="stylesheet" type="text/css" href="page4.css">
-    <script src="script.js" type="text/JavaScript"></script>
 </head>
     
 <body>
@@ -119,7 +118,7 @@
                                         <input type="text" id="company" name="company"  placeholder="Enter the name of your company">
                                     </div>
                                 </div>
-                                <button class="page-1-btn" id="test">
+                                <button type = "button" class="page-1-btn" onclick="toPage2()">
                                     <h4>Continue</h4>
                                     <img src="images/arrow-right.svg" alt=""></img>
                                 </button>
@@ -127,7 +126,7 @@
 
                             <div class="page-2" id="form-p2"> 
                                 <div class="page-content">
-                                    <button class="back-btn" onclick="toPage1()">
+                                    <button type = "button" class="back-btn" onclick="toPage1()">
                                         <img src="images/arrow-right.svg" alt="">
                                     </button>
                                     <h1>How Can I Get Into Contact with You?</h1>
@@ -143,14 +142,14 @@
                                         <input type="tel" id="phone" name="phone"  placeholder="(000) 000-0000">
                                     </div>
                                 </div>
-                                <button class="page-2-btn" onclick="toPage3()">
+                                <button type = "button" class="page-2-btn" onclick="toPage3()">
                                         <h4>Continue</h4>
                                         <img src="images/arrow-right.svg" alt=""></img>
                                 </button>
                             </div>
 
                             <div class="page-3" id="form-p3">
-                                <button class="back-btn" onclick="toPage2()">
+                                <button type = "button" class="back-btn" onclick="toPage2()">
                                     <img src="images/arrow-right.svg" alt="">
                                 </button>
                                 <div class="page-content">
@@ -228,5 +227,6 @@
             </div>
         </div>
         </section>
+        <script src="script.js" type="text/JavaScript"></script>
 </body>
 </html>

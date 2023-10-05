@@ -2,11 +2,8 @@ var page1 = document.getElementById('form-p1');
 var page2 = document.getElementById('form-p2');
 var page3 = document.getElementById('form-p3');
 
-var btn = document.getElementsByClassName("page-1-btn");
-
-console.log(btn);
-
-btn.addEventListener("click",()=>{console.log("hello")});
+var btn = document.querySelector(".page-1-btn")
+console.log(btn)
 
 function toPage1(){
     console.log("hello");
