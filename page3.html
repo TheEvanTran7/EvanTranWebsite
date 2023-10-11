@@ -19,6 +19,7 @@
 </head>
     
 <body>
+
     <img class="top-left-blob" src="images/top-left-blob.svg" alt="top-left-blob"> </img>
 
     <img class="bottom-right-blob" src="images/bottom-right-blob.svg" alt="bottom-right-blob"> </img>
@@ -87,7 +88,15 @@
 
         </ul>
     </section>
+
     <section class="s2">
+
+        <div class="modal" id="0">
+            <button class="x-btn" type="button" onclick="closeModal()">
+                <img src="images/x.svg" alt="x-button" class="x-img">
+            </button>
+        </div>
+
             <div class="intro-wrapper">
                 <div class="nav-wrapper">
                     <div class="dots-wrapper">
@@ -110,14 +119,15 @@
                                 
                     <!-- Back to Top Button -->
 
-                        <a class="b2t-btn">
-                            <h2>Back to Top</h2>
-                            <img src="images/arrow-up.svg" class="arrow-up">
-                        </a>
+                        <button class="b2t-btn" type="button" onclick="topFunction()">
+                            <h2>Back to Top</h2>                            <img src="images/arrow-up.svg" class="arrow-up">
+                        </button>
             
                     <!-- End Back to Top Button -->
 
                 </div>
+
+
                 <div class="proj-wrapper">
 
                     
@@ -129,23 +139,23 @@
         
         
                     <!-- Project 1 -->
-                    <div class="proj-block" id="1">
+                    <div class="proj-block" id="">
                             <!-- Project Left Content -->
                             <div class="left-right-content">
                                 <div class="left-column">
                                         <h5>FREELANCE - Nha Trang One</h5>
                                         <p>The Chinatown Restaurant Website Project</p>
-                                            <div class="proj-btn" id="1"> 
+                                            <div class="proj-btn" id="0"> 
                                                 <div class="view-proj-btn">
-                                                    <a href="" >
+                                                    <a href="https://nhatrangnyc.net/" target="_blank">
                                                         View Project 
-                                                        <img src="images/view-project-icon.svg" id="view-proj-icon">
+                                                        <img src="images/view-project-icon.svg"  id="view-proj-icon">
                                                     </a>
                                                 </div>
 
-                                                <a src="" class="learn-more" id="proj2">
+                                                <button class="learn-more" id="0" onclick="openInfo(this.id)">
                                                     Learn More
-                                                </a>
+                                                </button>
 
                                             </div>
                                 </div>
@@ -165,81 +175,14 @@
                         <img src="images/proj-seperator.svg" class="divider-img">
                     <!-- End Seperator Line -->
 
-                    <!-- Project 2 -->
-                    <div class="proj-block" id="2">
-                        <!-- Project Left Content -->
-                        <div class="left-right-content">
-                            <div class="left-column">
-                                    <h5>FREELANCE - Nha Trang One</h5>
-                                    <p>The Chinatown Restaurant Website Project</p>
-                                        <div class="proj-btn" id="2"> 
-                                            <div class="view-proj-btn">
-                                                <a href="" >
-                                                    View Project 
-                                                    <img src="images/view-project-icon.svg" id="view-proj-icon">
-                                                </a>
-                                            </div>
-                                            <a src="" class="learn-more" id="proj2">
-                                                Learn More
-                                            </a>
-                                        </div>
-                            </div>
-                            <!-- End Project Left Content -->
-        
-        
-                            <!-- Project Right Content -->
-                                <div class="right-column">
-                                        <img src="" class="project-pic"></img>
-                                </div>
-                        </div>
-                        <!-- End Project Right Content -->
-                        
-                    </div>
-                <!-- Emd Project 2-->
 
-                <!-- Seperator Line -->
-                    <img src="images/proj-seperator.svg" class="divider-img">
-                <!-- End Seperator Line -->
-
-
-                                <!-- Project 3 -->
-                                <div class="proj-block" id="3">
-                                    <!-- Project Left Content -->
-                                    <div class="left-right-content">
-                                        <div class="left-column">
-                                                <h5>FREELANCE - Nha Trang One</h5>
-                                                <p>The Chinatown Restaurant Website Project</p>
-                                                    <div class="proj-btn" id="3"> 
-                                                        <div class="view-proj-btn">
-                                                            <a href="" >
-                                                                View Project 
-                                                                <img src="images/view-project-icon.svg" id="view-proj-icon">
-                                                            </a>
-                                                        </div>
-                                                        <a src="" class="learn-more" id="proj2">
-                                                            Learn More
-                                                        </a>
-                                                    </div>
-                                        </div>
-                                        <!-- End Project Left Content -->
-                    
-                    
-                                        <!-- Project Right Content -->
-                                            <div class="right-column">
-                                                    <img src="" class="project-pic"></img>
-                                            </div>
-                                    </div>
-                                    <!-- End Project Right Content -->
-                                    
-                                </div>
-                            <!-- Emd Project 3-->
-                
-                            <!-- Seperator Line -->
-                                <img src="images/proj-seperator.svg" class="divider-img">
-                            <!-- End Seperator Line -->
                 </div>
             </div>
+
+
     </section>
-    
+
+
+    <script src="script.js"></script>
 </body>
 </html>

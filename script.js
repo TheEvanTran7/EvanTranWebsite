@@ -23,3 +23,28 @@ function toPage3(){
     page2.style.display = "none";
     page3.style.display = "block";
 }
+
+var proj = document.getElementsByClassName("proj-wrapper");
+
+function topFunction() {
+    document.proj.scrollTop = 0;
+    document.documentElement.scrollTop= 0;
+}
+
+var xBtn = document.getElementById("x");
+var modal = document.getElementById("nto");
+
+function openInfo(btnId){
+    var modal = document.querySelectorAll(".modal")
+    modal.forEach((btn) => {
+        btn.style.display = "none";
+    })
+    modal[btnId].style.display = "block"
+}
+
+function closeModal(){
+    var modal = document.querySelectorAll(".modal")
+    modal.forEach((btn) => {
+        btn.style.display = "none";
+    })
+}

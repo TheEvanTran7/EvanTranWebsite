@@ -452,6 +452,7 @@ ul{
 }
 
 .portfolio-button{
+    cursor: pointer;
     justify-content: center;
     display:flex;
     width: 185px;
@@ -493,6 +494,7 @@ a{
     margin: 0;
 }
 .learn-more{
+    cursor: pointer;
     margin: 0;
     display: flex;
     justify-content: center;

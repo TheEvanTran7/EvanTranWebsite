@@ -370,19 +370,24 @@ h5{
 }
 
 .back-btn img{
-    width: 33px;
-    height: 33px;
+    width: 25px;
+    height: 25px;
     transform: rotate(180deg);
 }
 
 .back-btn h4{
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 .back-btn{
+    position: fixed;
+    top: 75px;
+    left: 25px;
+
+    cursor: pointer;
     display: flex;
     background-color: transparent;
     justify-content: center;
     padding: 5px;
-    gap: 7.5px;
+    gap: 10px;
 }
