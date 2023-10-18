@@ -166,6 +166,7 @@
 }
 
 .b2t-btn{
+    width: fit-content;
     cursor: pointer;
     display: flex;
     margin: auto 0;
@@ -179,16 +180,18 @@
 }
 
 .b2t-btn h2{
-    margin:auto;
+    width: fit-content;
+    margin:auto 0;
     color: var(--mainText);
     font-family: SF-Compact;
-    font-size: 18px;
+    font-size: 17.5px;
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 19.444px */
 }
 
 .b2t-btn img{
+    margin: auto 0;
     padding-top:2px;
     height: 25px;
 }
