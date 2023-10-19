@@ -228,6 +228,18 @@ p{
     width: auto;
 
 }
+
+
+.modal p{
+    width: 85%;
+    margin: auto;
+    font-family: 'SF-Compact', san-serif;
+    color: var(--mainText);
+    font-weight: 500;
+    font-size: 1.05rem;
+    word-spacing: 100%;
+    line-height: 125%;
+}
 .view-proj-btn a{                                                                                               
     display: flex;
     float: left;
@@ -358,15 +370,4 @@ img{
     width: 15px;
     height: 15px;
     padding: 0;
-}
-
-h2{
-    width: 75%;
-    margin: auto;
-    font-family: 'SF-Compact', san-serif;
-    color: var(--mainText);
-    font-weight: 500;
-    font-size: 1.05rem;
-    word-spacing: 95%;
-
 }
